@@ -38,8 +38,8 @@ class Feedback extends React.Component {
                 <h1>Please leave feedback</h1>
                 
             <div>
-                <button className={css} onClick={this.clickOnNeutral}>Neutral</button>
                 <button className={css} onClick={this.clickOnGood}>Good</button>
+                <button className={css} onClick={this.clickOnNeutral}>Neutral</button>
                 <button className={css} onClick={this.clickOnBad}>Bad</button>
             </div>
                 <h2>Statistics</h2>
